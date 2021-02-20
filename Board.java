@@ -68,7 +68,7 @@ public class Board
 
     public void printBoard()
     {
-        /*
+  
         //Creating 2d array to print out the board
         Square[][] boardMatrix = new Square[rows][columns];
 
@@ -111,7 +111,7 @@ public class Board
             System.out.println();
         }
 
-         */
+        /*
 
         for (int i=49; i>=0; i--)
         {
@@ -125,7 +125,7 @@ public class Board
             {
                 System.out.print(boardSquares[i]);
             }
-        }
+        } */
     }
 
     public static void main(String[] args)
