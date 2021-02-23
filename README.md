@@ -4,16 +4,7 @@ Stage 1: The Player and Square classes
 
 A board will consist of an array of Square objects. Consider this board:
 
-49(  ) 48(-3) 47(  ) 46(  ) 45(  )
-40(  ) 41(  ) 42(  ) 43(  ) 44(  )
-39(  ) 38(  ) 37(  ) 36(  ) S 35(  )
-30(-1) 31(  ) 32(-4) 33( 2) 34(-1)
-29(-4) E 28(  ) 27(  ) 26(  ) 25(  )
-20(  ) 21(  ) 22(  ) 23(  ) 24(  )
-19(  ) 18( 4) 17(  ) 16(  ) 15(-1)
-10(  ) 11(  ) 12(  ) 13(  ) 14(  )
-9(  ) 8(  ) 7(  ) 6(  ) 5(  )
-0(  ) 1(  ) 2(  ) 3(  ) 4(  )
+https://i.stack.imgur.com/pewAY.jpg
 
 It has 10 rows and 5 columns. The starting square (0) is drawn in the bottom left. The
 winning position is 49 (top left). There are two players ‘E’ and ‘S’. ‘S’ is at position 35 and ‘E’
