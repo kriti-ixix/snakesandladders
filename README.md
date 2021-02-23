@@ -1,6 +1,6 @@
 In this AE you will create the classes required for a Snakes and Ladders game.
 
-Stage 1: The Player and Square classes
+**Stage 1: The Player and Square classes**
 
 A board will consist of an array of Square objects. Consider this board:
 
@@ -33,13 +33,13 @@ as a string.
 To make things easier later on, Player objects should hold a reference to the square in
 which they are currently located.
 
-Task1: create Player and Square classes that admit the functionality described above.
+Task1: Create Player and Square classes that admit the functionality described above.
 In your Player class, include amain method that demonstrates the creation of a player,
 the creation of a square, the assignment of the Player tothe Square, and the
 toString methods of both the player and the square.
  
 
-Stage 2: The Board class
+**Stage 2: The Board class**
 
 The Board constructor should take integers representing the number of rows and columns.
 Players always start at position 0. The board should always be drawn so that the row
@@ -69,7 +69,7 @@ main method that creates a board with 10 rows and 5 columns. The main method sho
 also create two players, add them to the board, and print the board.
 
 
-Stage 3: Moving
+**Stage 3: Moving**
 
 Now we start to play! Players should be given a move method. It should return a binary
 value which will be t rue if the move they make results in winning, and false otherwise.
@@ -83,7 +83,7 @@ true, that player has won and takeTurns should immediately terminate, returning
 true. Otherwise it should return false.
 
 
-Stage 4: Playing
+**Stage 4: Playing**
 
 Task 4: Create a new class (Play. java) that will contain a main method that will create a
 board, some players and start a game, playing it until completion. In thismain method add
@@ -91,7 +91,7 @@ deltas to some of the squares (at least two snakes, and two ladders). Ensure tha
 or ladder ends where another snake or ladder starts (this can result in an infinite loop).
  
 
-Stage 5: Different types of player
+**Stage 5: Different types of player**
 
 Task 5: Create a subclass of your Player class (call it HumanPlayer) that, when the
 move method is called, writes a message to the standard output requesting an input integer
